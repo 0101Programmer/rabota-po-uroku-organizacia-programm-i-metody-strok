@@ -1,0 +1,7 @@
+my_string = input('Введите предложение с несколькими большими буквами: ')
+print('Количество символов введённого текста:', len(my_string))
+print('Upper:', my_string.upper())
+print('Lower:', my_string.lower())
+print('Пробелов нет:', my_string.replace(' ', ''))
+print('Первый символ:', my_string[0])
+print('Последний символ:', my_string[-1])
